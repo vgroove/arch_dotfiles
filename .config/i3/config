@@ -168,7 +168,6 @@ bindsym Mod1+r mode "resize"
 #         status_command i3blocks
 # }
 exec polybar top &
-exec polybar bottom &
 
 # set wallpaper
 exec_always --no-startup-id feh --bg-scale '/home/kevin/pictures/wallpapers/overhead_highway.png'
