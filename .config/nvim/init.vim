@@ -45,7 +45,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 
 call plug#end()
 
-colorscheme tender
+" colorscheme tender
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:airline_theme = 'tender'
 

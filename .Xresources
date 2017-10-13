@@ -5,7 +5,7 @@ URxvt.scrollBar: false
 URxvt.background:	[100]#2f2f38
 URxvt*foreground: 		                #cfd2cf
 URxvt*cursorColor:		                #cfd2cf
-URxvt.font: xft:monofur:size=12
+URxvt.font: xft:Droid Sans Mono for Powerline:size=11
 *.color0:       #34343e
 *.color1:       #9aafaa
 *.color2:       #759496
@@ -27,4 +27,4 @@ rofi.color-window: #2f2f38, #688486, #688486
 rofi.color-normal: #2f2f38, #688486, #2f2f38, #2f2f38, #cfd2cf
 rofi.color-active: #2f2f38, #688486, #2f2f38, #2f2f38, #cfd2cf
 rofi.color-urgent: #2f2f38, #688486, #2f2f38, #2f2f38, #cfd2cf
-rofi.font: monofur 13
+rofi.font: "Droid Sans Mono for Powerline" 13
