@@ -66,7 +66,9 @@ bindsym Mod1+Return exec urxvt
 bindsym Mod1+Shift+q kill
 
 # Rofi shortcut
-bindsym Mod1+d exec "rofi -show run"
+bindsym Mod1+d exec "rofi -show drun"
+bindsym Mod1+Shift+d exec "rofi -show window"
+bindsym Mod1+s exec "rofi -show ssh"
 
 # Change focus Vim-like or arrow keys
 bindsym Mod1+$left focus left
@@ -96,7 +98,7 @@ bindsym Mod1+v split h
 bindsym Mod1+f fullscreen toggle
 
 # Container layout
-bindsym Mod1+s layout stacking
+bindsym Mod1+q layout stacking
 bindsym Mod1+w layout tabbed
 bindsym Mod1+e layout toggle split
 
