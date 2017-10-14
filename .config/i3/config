@@ -73,6 +73,9 @@ bindsym Mod1+s exec "rofi -show ssh"
 # Lockscreen shortcut
 bindsym Mod1+i exec "i3lock.sh -t '' -- scrot"
 
+# Nautilus shortcut
+bindsym Mod1+e exec "nautilus"
+
 # Change focus Vim-like or arrow keys
 bindsym Mod1+$left focus left
 bindsym Mod1+$down focus down
@@ -103,16 +106,13 @@ bindsym Mod1+f fullscreen toggle
 # Container layout
 bindsym Mod1+q layout stacking
 bindsym Mod1+w layout tabbed
-bindsym Mod1+e layout toggle split
+bindsym Mod1+a layout toggle split
 
 # Toggle tiling/floating
 bindsym Mod1+Shift+space floating toggle
 
 # Change focus tiling/floating windows
 bindsym Mod1+space focus mode_toggle
-
-# Focus the parent container
-bindsym Mod1+a focus parent
 
 # Focus the child container
 #bindsym Mod1+d focus child
@@ -183,8 +183,13 @@ mode "resize" {
 bindsym Mod1+r mode "resize"
 
 # Mouse bindings (middle click closes window, right clock floats)
-bindsym --release button2 kill
+bindsym --release --whole-window button2 kill
 bindsym button3 floating toggle
+
+# Applications to start in floating mode
+for_window [class="Nautilus"] floating enable
+for_window [class="Oomox"] floating enable
+for_window [class="feh"] floating enable
 
 ########## Startup Applications ##########
 
