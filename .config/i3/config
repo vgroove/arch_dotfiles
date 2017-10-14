@@ -70,6 +70,9 @@ bindsym Mod1+d exec "rofi -show drun"
 bindsym Mod1+Shift+d exec "rofi -show window"
 bindsym Mod1+s exec "rofi -show ssh"
 
+# Lockscreen shortcut
+bindsym Mod1+i exec "i3lock.sh -t '' -- scrot"
+
 # Change focus Vim-like or arrow keys
 bindsym Mod1+$left focus left
 bindsym Mod1+$down focus down
