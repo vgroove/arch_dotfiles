@@ -87,4 +87,4 @@ source $ZSH/oh-my-zsh.sh
 # Disable shared history
 unsetopt share_history
 setopt no_share_history
-alias config='/usr/bin/git --git-dir=/home/kevin/.dotfiles/ --work-tree=/home/kevin'
+alias dotfiles='/usr/bin/git --git-dir=/home/kevin/.dotfiles/ --work-tree=/home/kevin'
